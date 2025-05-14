@@ -47,8 +47,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/allanime_moviehindi"),    
+            InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/Friend_Chat_International"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/acxbots"),    
         ]
         ]
 
@@ -157,7 +157,7 @@ async def keep_reaction_message(client, message: Message):
 
 async def delete_pdf_files(client, message):
     if message.document and message.document.mime_type == "application/pdf":
-        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @aayanokozi ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
+        warning_message = f"@{message.from_user.username} ᴍᴀᴀ ᴍᴀᴛ ᴄʜᴜᴅᴀ ᴘᴅғ ʙʜᴇᴊ ᴋᴇ,\n ʙʜᴏsᴀᴅɪᴋᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀɢʏᴇɢᴀ \n\n ᴅᴇʟᴇᴛᴇ ᴋᴀʀ ᴅɪʏᴀ ᴍᴀᴅᴀʀᴄʜᴏᴅ.\n\n ᴀʙ @kairnex ʙʜᴀɪ ᴋᴇ ᴅᴍ ᴍᴇ ᴀᴘɴɪ ᴍᴜᴍᴍʏ ᴋᴏ ʙʜᴇᴊ ᴅᴇ 🍌🍌🍌."
         await message.reply_text(warning_message)
         await message.delete()
     else:  
